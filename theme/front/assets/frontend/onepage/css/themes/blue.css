@@ -1,0 +1,98 @@
+a, a:focus, a:hover, a:active {
+  color: #336699;
+}
+a:hover {
+  color: #336699;
+}
+::-moz-selection {
+  color: #fff;
+  background: #336699;
+}
+::selection {
+  color: #fff;
+  background: #336699;
+}
+.header-navigation a:hover,
+.header-navigation li.current a {
+  color: #336699;
+}
+.tb-socio .fa:hover {
+  color: #336699;
+  border: solid 1px #336699;
+}
+.carousel-indicators li.active {
+  background: #336699;
+}
+.go2top:hover {
+  border: solid 2px #336699;
+  color: #336699;
+}
+.content h1 strong, .content h2 strong, .content h3 strong, .content h4 strong {
+  color: #336699;
+}
+.slider-item-1 .large_bold_white span,
+.slider-item-2 .large_bold_white span {
+  color: #336699;
+}
+.tp-caption a {
+    color: #336699;
+}
+.services-block .fa {
+  background: #336699;
+}
+.services-block .fa:after {
+  border-top: 9px solid #336699;
+}
+.team-block em {
+  color: #336699;
+}
+.portfolio-block .item > a {
+  background: rgba(100, 174, 217, 0.85);
+}
+.choose-us-block .panel-default .accordion-toggle:before {
+  background-color: #336699;
+}
+.choose-us-block .panel-default .collapsed:before {
+  background-color: #495764;/* black */
+}
+.choose-us-block .panel-default .panel-title:hover .collapsed:before {
+  background-color: #336699;
+}
+.btn-primary {
+  background: #336699;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background: #047abf;
+}
+.facts-block .item {
+  background: rgba(100, 174, 217, 0.92);
+}
+.pi-price strong {
+  background: #336699;
+}
+.pi-price strong:after {
+  border-top: 9px solid #336699;
+}
+.pricing-content .list-unstyled li i {
+  color: #336699;
+}
+.pricing-footer .btn-default:hover,
+.pricing-footer .btn-default:active {
+  background: #336699;
+}
+.portfolio-block .item b:hover {
+  color: #336699;
+}
+@media (max-width: 1024px) {
+  .header-mobi-ext .header-navigation a:hover,
+  .header-mobi-ext .header-navigation li.current a{
+    background-color: #336699;
+    color: #fff !important;
+  }
+}
+.header .mobi-toggler:hover {
+  background-color: #336699;
+  border-color: #336699;
+}

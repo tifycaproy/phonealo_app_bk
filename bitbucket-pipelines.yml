@@ -1,0 +1,13 @@
+pipelines:
+  default:
+    - step:
+        script:
+<<<<<<< HEAD
+          #- ls /root/.ssh/
+          #- cat /root/.ssh/config
+=======
+          - eval `ssh-agent`
+          #- ssh-add /root/.ssh/id_rsa
+          - ssh-add /opt/atlassian/pipelines/agent/data/id_rsa
+>>>>>>> 254c13c11b6be6272b1347339b3939e879db74a7
+          - ssh -i /opt/atlassian/pipelines/agent/data/id_rsa develop@app.phonealo.net 'cd /var/www/html ; git pull origin master'

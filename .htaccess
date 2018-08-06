@@ -1,0 +1,10 @@
+php_flag display_errors on
+#php_flag open_basedir /var/www/vhosts/arimao.net/httpdocs:/tmp:/home/docsconv
+php_value upload_max_filesize 10485760
+php_value post_max_size 10485760
+
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
